@@ -174,10 +174,49 @@
     bottom: 140px;
     right: 50px;
 }
+.first{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.two2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.two3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.divho{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+.alll2{
+    display: none;
+}
 @media (max-width:510px) {
       .alll1{
         display: none;
       }
+      .alll2{
+    display: block;
+}
       .footer-links {
     padding: 30px 20px;
     background-color: #ffffff;
